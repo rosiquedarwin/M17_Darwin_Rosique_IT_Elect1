@@ -3,8 +3,8 @@ import { View, Text, FlatList, TextInput, TouchableOpacity, StyleSheet } from "r
 
 export default function CommentSection() {
   const [comments, setComments] = useState([
-    { id: "1", text: "Wow" } ,
-    { id: "2", text: "Nice" },
+    { id: "1", text: "Maayong gabie" },
+    { id: "2", text: "Kung ako nalang diay?" },
   ]);
   const [newComment, setNewComment] = useState("");
 
@@ -50,7 +50,7 @@ export default function CommentSection() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, padding: 10, backgroundColor: "#fff" },
+  container: { flex: 1, padding: 10, backgroundColor: "pink" },
   commentBox: {
     flexDirection: "row",
     alignItems: "center",
