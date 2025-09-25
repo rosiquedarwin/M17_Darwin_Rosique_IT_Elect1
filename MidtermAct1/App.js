@@ -13,5 +13,3 @@ export default function App() {
     </SafeAreaView>
   );
 }
-
->>>>>>> b053f51 (Color Changer App)
